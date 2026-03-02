@@ -14,9 +14,9 @@ if (isset($_POST['add'])) {
     $user_id = $pdo->lastInsertId();
 
     $stmt2 = $pdo->prepare("INSERT INTO orders (user_id, product, amount)
-    VALUES (?, ?, ?");
-    $stmt2->execute([$user_id, $product< $amount]);
+    VALUES (?, ?, ?)");
+    $stmt2->execute([$user_id, $product, $amount]);
 
     echo "User and Order added successfully!";
-
 }
+?>
