@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.container {
+    display: flex;
+    gap: 30px;
+}
+
+.form-side {
+    width: 300px;
+}
+
+.table-side {
+    flex: 1;
+}
+
+form {
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+    width: 200px;
+}
+
+.amount-container {
+    display: flex;
+    align-items: center;
+}
+
+.amount-container span {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.edit-icon {
+    color: #4CAF50;
+    margin-right: 10px;
+}
+
+.delete-icon {
+    color: #f44336;
+}
+
+.action-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.action-icons a {
+    font-size: 18px;
+}
+
+.dollar-sign {
+    font-weight: bold;
+    margin-right: 2px;
+}
